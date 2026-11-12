@@ -1,5 +1,5 @@
 package packcr;
-interface MyInf
+public interface MyInf
 {
     public void showMessage(); 
 }

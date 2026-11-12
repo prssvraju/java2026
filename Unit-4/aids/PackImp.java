@@ -5,7 +5,12 @@ class PackImp
     {
         Aids obj = new Aids();
         obj.showMessage();
-
-        
+        MyInf objinf = new MyInf(){
+            public void showMessage(){
+                System.out.println("Hello from MyInf");
+            }   
+        };
+        objinf.showMessage();
     }
+
 }
